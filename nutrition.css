@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.header {
+    background-color: #464E2E;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    font-size: 8rem;
+    padding: 10px;
+    background: url(HHI-logo-trans.png) no-repeat center;
+
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+    padding-top: 10px;
+    font-size: .65rem;
+}

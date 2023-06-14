@@ -86,8 +86,8 @@ input[type="text"]:hover {
 }
 
 .dropbtn {
-    background-color: white;
-    color: black;
+    background-color: #CC0000;
+    color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
