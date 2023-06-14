@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link href="contact.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Page Title</title>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #93c47d;
+            }
+
+            .active {
+                background-color: #cc0000;
+            }
+
+            img {
+                width: 800px;
+                height: 800px;
+            }
+
+            body {
+                background-image: url("HHI logo.png");
+                background-repeat: repeat;
+                background-size: 300px 300px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="header">
+            <h1><img src="HHI-logo-trans.png" alt="Hound Dog Logo" style="width:75px;height:75px;"> Contact / FAQ</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gearblog.html">Gear</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li style="float:right"><a href="about.html">about</a></li>
+            <li style="float:right"><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="dropdown">
+            <button class="dropbtn">Active Locations</button>
+            <div class="dropdown-content">
+                <a href="https://www.google.com/maps/place/Utah/@39.3886293,-116.8278279,2490655m/data=!3m2!1e3!4b1!4m6!3m5!1s0x874c6bc78f13f9cd:0xbddf4aa56cd7463f!8m2!3d39.3209801!4d-111.0937311!16zL20vMDdzcnc?entry=ttu">UTAH</a>
+                <a href="#">Unknown Location</a>
+                <a href="https://www.google.com/search?q=your+location+is+currently+&ei=1t2EZLmuOdLBkPIPm4GFkAU&ved=0ahUKEwi58YOQxrn_AhXSIEQIHZtAAVIQ4dUDCBE&uact=5&oq=your+location+is+currently+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgoIABBHENYEELADOgoIABCKBRCwAxBDSgQIQRgAULIVWLQaYN0gaAJwAXgAgAGEAYgB7QWSAQMwLjaYAQCgAQHAAQHIAQo&sclient=gws-wiz-serp">You're MOM's House</a>
+            </div>
+        </div>
+        <p>
+        <div>
+            <form action="#index.html" method="POST">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">E-mail</label>
+                <input type="text" id="lname" name="e-mail" placeholder="E-mail Address">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="usa">USA</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="Classified Location">Classified Location</option>
+                </select>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <footer>
+            <p>Havoc Hound Innovation<br>
+                &copy; 2023-2023<br>
+                All Rights Reserved<br>
+            </p>
+        </footer>
+
+
+
+
+
+    </body>
+
+</html>
